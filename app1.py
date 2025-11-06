@@ -132,9 +132,10 @@ st.markdown("""
 <hr>
 <p style='text-align:center; font-size:15px;'>
 DistilBERT achieves higher contextual accuracy than Logistic Regression for toxic comment detection.
-Built by Abbu Bucker, Chandana and Arunima.
+</br>Built by Abbu Bucker, Chandana and Arunima.
 </p>
 """, unsafe_allow_html=True)
+
 
 
 
