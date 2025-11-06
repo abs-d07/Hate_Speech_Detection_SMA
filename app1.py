@@ -59,7 +59,8 @@ def load_logreg():
 
 @st.cache_resource
 def load_bert():
-    model_path = os.path.join(os.getcwd(), "bert_finetuned")
+    # model_path = os.path.join(os.getcwd(), "bert_finetuned")
+    model_path = "https://huggingface.co/abbu1402/bert_finetuned/tree/main"
     model = AutoModelForSequenceClassification.from_pretrained(model_path)
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -134,3 +135,4 @@ Built with ❤️ using Streamlit, Scikit-learn, and Hugging Face Transformers.<
 DistilBERT achieves higher contextual accuracy than Logistic Regression for toxic comment detection.
 </p>
 """, unsafe_allow_html=True)
+
