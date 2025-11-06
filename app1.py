@@ -131,9 +131,11 @@ if st.button("🔍 Analyze Comment"):
 st.markdown("""
 <hr>
 <p style='text-align:center; font-size:15px;'>
-Built with ❤️ using Streamlit, Scikit-learn, and Hugging Face Transformers.<br>
+# Built with ❤️ using Streamlit, Scikit-learn, and Hugging Face Transformers.<br>
 DistilBERT achieves higher contextual accuracy than Logistic Regression for toxic comment detection.
+Built by Abbu Bucker, Chandana and Arunima.
 </p>
 """, unsafe_allow_html=True)
+
 
 
