@@ -4,3 +4,6 @@ numpy
 scikit-learn
 openai
 matplotlib
+torch
+transformers
+
